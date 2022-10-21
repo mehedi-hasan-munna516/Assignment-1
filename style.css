@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: auto;
+    padding: auto;
 }
 
 .section-1 {
@@ -33,7 +35,7 @@ body {
     text-decoration: none;
     padding: 10px 35px;
     border-radius: 5px;
-    background-image: linear-gradient(rgb(243, 55, 55), rgb(247, 69, 60));
+    background-image: linear-gradient(rgb(244, 71, 71), rgb(225, 73, 65));
     color: black;
     font-weight: 700;
 }
@@ -45,30 +47,63 @@ body {
 
 .section-2 {
     display: flex;
-    padding: 0px 120px;
+    padding: 10px 120px 100px;
 }
 
 .mission-goal-vission img {
     width: 30%;
 }
-#one{
+
+#one {
     background-color: aqua;
     padding: 10px 20px;
     border: 5px aqua;
     border-radius: 15px;
     margin: 20px;
 }
-#two{
-    background-color: gray;
+
+#two {
+    background-color: cornflowerblue;
     padding: 10px 20px;
-    border: 5PX gray;
+    border: 5PX cornflowerblue;
     border-radius: 15px;
     margin: 20px;
 }
-#three{
+
+#three {
     background-color: bisque;
     padding: 10px 20px;
     border: 5px bisque;
     border-radius: 15px;
     margin: 20px;
+}
+
+.section-3 {
+    display: flex;
+    padding: 10px 120px 60px 150px;
+}
+
+.develop-part img {
+    width: 80%;
+}
+
+.bold {
+    font-size: 45px;
+}
+
+.section-4 {
+    display: flex;
+    padding: 15px 0px 100px 130px;
+}
+
+.global-community-part img {
+    width: 70%;
+}
+
+.footer {
+    background-color: black;
+    margin-left: auto;
+    padding: 36px;
+    text-align: center;
+    color: white;
 }
