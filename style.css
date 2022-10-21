@@ -1,36 +1,74 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-.section-1{
+
+.section-1 {
     display: flex;
 }
-.half-width{
+
+.half-width {
     width: 50%;
-    padding: 100px  ;
-    padding-left: 140px;
-    
+    padding: 28px 70px 70px 148px;
+
 }
-.half-width img{
+
+.half-width img {
     width: 90%;
-   
+
 }
-h1{
-    font-size: 50px;
-}
+
 .color {
     color: rgb(39, 194, 194);
 }
-.border{
+
+.border {
+    font-size: 41px;
     border-left: 5px solid aqua;
     padding-left: 10px;
     border-radius: 2px;
- 
+
 }
-.link-button{
+
+.link-button {
     text-decoration: none;
     padding: 10px 35px;
     border-radius: 5px;
-    background-image: linear-gradient(rgb(243, 55, 55) , rgb(247, 69, 60));
+    background-image: linear-gradient(rgb(243, 55, 55), rgb(247, 69, 60));
     color: black;
     font-weight: 700;
+}
+
+.middle {
+    text-align: center;
+    font-size: 45px;
+}
+
+.section-2 {
+    display: flex;
+    padding: 0px 120px;
+}
+
+.mission-goal-vission img {
+    width: 30%;
+}
+#one{
+    background-color: aqua;
+    padding: 10px 20px;
+    border: 5px aqua;
+    border-radius: 15px;
+    margin: 20px;
+}
+#two{
+    background-color: gray;
+    padding: 10px 20px;
+    border: 5PX gray;
+    border-radius: 15px;
+    margin: 20px;
+}
+#three{
+    background-color: bisque;
+    padding: 10px 20px;
+    border: 5px bisque;
+    border-radius: 15px;
+    margin: 20px;
 }
